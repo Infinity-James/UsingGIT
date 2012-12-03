@@ -83,11 +83,8 @@
 		1AA3489E166C9B9100503F0D /* UsingGIT */ = {
 			isa = PBXGroup;
 			children = (
-				1AA348A7166C9B9100503F0D /* AppDelegate.h */,
-				1AA348A8166C9B9100503F0D /* AppDelegate.m */,
-				1AA348B0166C9B9100503F0D /* ViewController.h */,
-				1AA348B1166C9B9100503F0D /* ViewController.m */,
-				1AA348B3166C9B9100503F0D /* ViewController.xib */,
+				1AF3A988166C9C6C00B5CD1B /* App Delegate */,
+				1AF3A98A166C9C7800B5CD1B /* View Controller */,
 				1AA3489F166C9B9100503F0D /* Supporting Files */,
 			);
 			path = UsingGIT;
@@ -105,6 +102,25 @@
 				1AA348AE166C9B9100503F0D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF3A988166C9C6C00B5CD1B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AA348A7166C9B9100503F0D /* AppDelegate.h */,
+				1AA348A8166C9B9100503F0D /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1AF3A98A166C9C7800B5CD1B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AA348B0166C9B9100503F0D /* ViewController.h */,
+				1AA348B1166C9B9100503F0D /* ViewController.m */,
+				1AA348B3166C9B9100503F0D /* ViewController.xib */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +308,7 @@
 				1AA348BA166C9B9100503F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
