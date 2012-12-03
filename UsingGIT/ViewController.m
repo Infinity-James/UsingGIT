@@ -14,16 +14,11 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+#pragma mark - Action & Selector Methods
 
-- (void)didReceiveMemoryWarning
+- (IBAction)testButtonTapped
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	NSLog(@"The test button has been tapped.");
 }
 
 @end
