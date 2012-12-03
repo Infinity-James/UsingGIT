@@ -18,6 +18,7 @@
 		1AA348AF166C9B9100503F0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA348AE166C9B9100503F0D /* Default-568h@2x.png */; };
 		1AA348B2166C9B9100503F0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA348B1166C9B9100503F0D /* ViewController.m */; };
 		1AA348B5166C9B9100503F0D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA348B3166C9B9100503F0D /* ViewController.xib */; };
+		1AF3A98D166C9E9500B5CD1B /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF3A98C166C9E9500B5CD1B /* Refresh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1AA348B0166C9B9100503F0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1AA348B1166C9B9100503F0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1AA348B4166C9B9100503F0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1AF3A98C166C9E9500B5CD1B /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		1AA3489E166C9B9100503F0D /* UsingGIT */ = {
 			isa = PBXGroup;
 			children = (
+				1AF3A98B166C9E7100B5CD1B /* Resources */,
 				1AF3A988166C9C6C00B5CD1B /* App Delegate */,
 				1AF3A98A166C9C7800B5CD1B /* View Controller */,
 				1AA3489F166C9B9100503F0D /* Supporting Files */,
@@ -121,6 +124,14 @@
 				1AA348B3166C9B9100503F0D /* ViewController.xib */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		1AF3A98B166C9E7100B5CD1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AF3A98C166C9E9500B5CD1B /* Refresh.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				1AA348AD166C9B9100503F0D /* Default@2x.png in Resources */,
 				1AA348AF166C9B9100503F0D /* Default-568h@2x.png in Resources */,
 				1AA348B5166C9B9100503F0D /* ViewController.xib in Resources */,
+				1AF3A98D166C9E9500B5CD1B /* Refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
